@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-venue: "University of Maryland, Baltimore"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "University of Maryland, Baltimore - CANCELLED"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Gladhill Boardroom, 601 W. Lombard Street, Baltimore, MD 21201"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
@@ -69,13 +69,7 @@ INTRODUCTION
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
-{% if site.carpentry == "swc" %}
-{% include swc/intro.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/intro.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/intro.html %}
-{% endif %}
+Please accept our apologies! The governors of many states (including Maryland) have declared states of emergency due to COVID-19. New university travel to those states is discouraged, and as such, regrettably we will not be holding this Library Carpentry workshop. 
 
 {% comment %}
 AUDIENCE
