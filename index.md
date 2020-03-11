@@ -69,10 +69,10 @@ INTRODUCTION
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
-<p>Please accept our apologies! The governors of many states (including Maryland) have declared states of emergency due to COVID-19. New university travel to those states is discouraged, and as such, regrettably we will not be holding this Library Carpentry workshop.</p>
+<p><strong>Please accept our apologies! The governors of many states (including Maryland) have declared states of emergency due to COVID-19. New university travel to those states is discouraged, and as such, regrettably we will not be holding this Library Carpentry workshop.</strong></p>
 
-<p>If you are a good self-learner, please note that all of the lessons we would have covered in the workshop are open source and available via the links in the syllabus below.</p>
-
+<p><strong>If you are a good self-learner, please note that all of the lessons we would have covered in the workshop are open source and available via the links in the syllabus below.</strong></p>
+<p></p><p></p>
 
 {% comment %}
 AUDIENCE
