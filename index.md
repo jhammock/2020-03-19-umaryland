@@ -80,13 +80,7 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if site.carpentry == "swc" %}
-{% include swc/who.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
+
 
 {% comment %}
 LOCATION
@@ -96,29 +90,14 @@ if the latitude and longitude of the workshop have been set.  You
 can use https://itouchmap.com/latlong.html to find the lat/long of an
 address.
 {% endcomment %}
-{% if page.latitude and page.longitude %}
-<p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
-</p>
-{% endif %}
+
 
 {% comment %}
 DATE
 
 This block displays the date and links to Google Calendar.
 {% endcomment %}
-{% if page.humandate %}
-<p id="when">
-  <strong>When:</strong>
-  {{page.humandate}}.
-  {% include workshop_calendar.html %}
-</p>
-{% endif %}
+
 
 {% comment %}
 SPECIAL REQUIREMENTS
